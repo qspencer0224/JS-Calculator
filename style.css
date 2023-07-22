@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .calculatorMain {
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTVqbnBxcGhtd254cGM5ZWJ1NGRjY241ZmI0am84bTJ5dDgwOG1ueiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gEvab1ilmJjA82FaSV/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    margin: 1em;
+    height: 68vh;
+    width: 25vw;
+    padding-top: 1.5em;
+    background-color: lemonchiffon;
+  }
+  
+  .screen {
+    border: inset white;
+    border-width: 2px;
+    height: 3vh;
+    margin: .5em;
+    border-radius: 22px;
+    padding: 1em;
+    text-align: right;
+    color: white;
+    font-size: 32px;
+    font-family: "share tech mono";
+    font-weight: bold;
+  }
+  
+  .calcRow {
+    /* border:solid blue; */
+    border-width: .2px;
+    margin: 1em;
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .key {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border: solid #949494;
+    border-width: 1px;
+    color: white;
+    box-shadow: 0px 2px 2px black;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "gruppo";
+  }
+  
+  .key:hover {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "gruppo";
+    font-weight: bold;
+    color: white;
+    border: solid white;
+    box-shadow: 0px 0px 5px white;
+  }
+  
+  .title {
+    text-align: center;
+  }
